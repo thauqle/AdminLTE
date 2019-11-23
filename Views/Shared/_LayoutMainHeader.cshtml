@@ -13,6 +13,7 @@
     </a>
 
     <!-- Header Navbar -->
+
     <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
@@ -42,9 +43,8 @@
             </li>
         </ul>
     </div>-->
-
         <!-- Navbar Right Menu -->
-        <div class="navbar-custom-menu" style="display:inline-block">
+        <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
                 <!-- Messages: style can be found in dropdown.less-->
                 <li class="dropdown messages-menu">
@@ -178,20 +178,20 @@
                             </p>
                         </li>
                         <!-- Menu Body
-    <li class="user-body">
-        <div class="row">
-            <div class="col-xs-4 text-center">
-                <a href="#">Followers</a>
-            </div>
-            <div class="col-xs-4 text-center">
-                <a href="#">Sales</a>
-            </div>
-            <div class="col-xs-4 text-center">
-                <a href="#">Friends</a>
-            </div>
-        </div>
+                    <li class="user-body">
+                        <div class="row">
+                            <div class="col-xs-4 text-center">
+                                <a href="#">Followers</a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <a href="#">Sales</a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <a href="#">Friends</a>
+                            </div>
+                        </div>
 
-    </li>-->
+                    </li>-->
                         <!-- Menu Footer-->
                         <li class="user-footer">
                             <div class="pull-left">
@@ -207,5 +207,18 @@
             </ul>
         </div>
 
+        <div class="navbar-custom-menu" style="float:right;">
+            <form action="#" method="get" class="form-inline sidebar-form" style="margin:7px 5px; border:0px hidden; ">
+                <div class="input-group">
+                    <input type="text" name="q" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                        <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
     </nav>
+
 </header>
